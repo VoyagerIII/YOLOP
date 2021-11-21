@@ -46,6 +46,7 @@ class AutoDriveDataset(Dataset):
         self.lane_root = lane_root / indicator
         # self.label_list = self.label_root.iterdir()
         self.mask_list = self.mask_root.iterdir()
+        self.lane_list = self.lane_root.iterdir()
 
         self.db = []
 
